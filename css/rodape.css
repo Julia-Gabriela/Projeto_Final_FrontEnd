@@ -1,0 +1,76 @@
+#rodape{
+    background-color: #6d6d6d;
+    width: 100%;
+    height: 30vh;
+}
+#Newsletter{
+        font-family: roboto-negrito;
+        color: rgb(187, 185, 185);
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        height: 30vh;
+        padding-top: 30px;
+}
+#email{
+    font-family: roboto-negrito;
+    color: rgb(187, 185, 185);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-email{
+    font-family: roboto-negrito;
+    margin-left: 45pt;
+    display: flex;
+}
+.item-email h6{
+    font-family: roboto-negrito;
+    margin-left: 5pt;
+    display: flex;
+}
+#privacidade{
+    color: rgb(187, 185, 185);
+    font-family: roboto-negrito;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 14pt;
+
+}
+@media (max-width: 900px) {
+    footer {
+        height: 34vh;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+    }
+    #rodape{
+        background-color: #6d6d6d;
+        width: 100%;
+        height: 35vh;
+    }
+    #Newsletter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 50pt; 
+        margin-bottom: -30pt;
+        margin-top: -30pt;
+    }
+    #email{
+        justify-content: center;
+    }
+    #privacidade{
+        display: flex;
+        flex-direction: row;
+    }
+    #barra-rodape{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

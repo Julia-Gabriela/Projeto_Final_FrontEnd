@@ -1,0 +1,118 @@
+header{
+    background-color: #003757;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#barra-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#nome{
+    font-family: Satisfy;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    height: 70px;
+    padding-top: 30px;
+}
+#nome h1{
+    margin: 0px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    border: 4px solid rgb(91, 91, 91);
+    box-shadow: 2px 2px 2px 1px rgb(6, 0, 47);
+    position: relative;
+    z-index: 10;
+    bottom: -10px;
+}
+#menu{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#menu ul{
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 16pt;
+    padding-right: 30px;
+    
+}
+#menu ul li{
+    list-style: none ;
+    display: inline-block;
+    padding: 0px 12px;
+}
+#menu ul a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#menu ul a:hover{
+    color: #fd418f;
+    text-decoration: none;
+    
+}
+.item-menu{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.icon-menu{
+    width: 20px;
+    height: 20px;
+
+}
+@media (max-width: 900px) {
+    header {
+        height: 34vh;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+    }
+    #nome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 50pt; 
+    }
+    #menu{
+        display: flex;
+        flex-direction: row;
+    }
+    #logo{
+        justify-content: center;
+       
+    }
+    #menu ul li{
+        display: none;
+    }
+    #logo img{
+        margin-bottom: 20px;
+
+    }
+    #barra-menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
